@@ -1,0 +1,10 @@
+-Créer trois variables nom , prenom et age et les initialiser avec les valeurs de votre choix. Attention age est de type entier. Afficher leur contenu:
+<?php
+$name="oundir" ."<br>";
+$prenom="imad";
+$age=25;
+echo $name;
+echo $prenom;
+echo"<br>";
+echo $age;
+?>

@@ -1,0 +1,7 @@
+-Faire une fonction qui retourne true:
+<?php
+function imad (){
+return "true";
+}
+echo imad();
+?>

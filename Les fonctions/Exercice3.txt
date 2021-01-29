@@ -1,0 +1,9 @@
+-Faire une fonction qui prend en paramètre deux chaines de caractères et qui renvoit la concaténation de ces deux chaines.
+<?php
+function myfunction($myString){
+return $myString ;
+}
+
+echo myfunction("Hello");
+
+?>

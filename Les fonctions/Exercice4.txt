@@ -1,0 +1,19 @@
+-Faire une fonction qui prend en paramètre deux nombres. La fonction doit retourner :
+
+=> Le premier nombre est plus grand si le premier nombre est plus grand que le deuxième => Le premier nombre est plus petit si le premier nombre est plus petit que le deuxième => Les deux nombres sont identiques si les deux nombres sont égaux
+<?php
+function num($a,$b){
+if($a>$b){
+$num="premier nomber est plus grand ";
+}
+else if($a<$b){
+$num="premier nomber est plus petit";
+}
+else{
+$num=" Les deux nombres sont identiques";
+}
+return $num;
+
+}
+echo num(10,6);
+?>

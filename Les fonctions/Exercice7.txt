@@ -1,0 +1,23 @@
+-Faire une fonction qui prend deux paramètres : age et genre. Le paramètre genre peut prendre comme valeur Homme ou Femme. La fonction doit renvoyer en fonction des paramètres (gérer tous les cas) :
+
+=> Vous êtes un homme et vous êtes majeur => Vous êtes un homme et vous êtes mineur => Vous êtes une femme et vous êtes majeur => Vous êtes une femme et vous êtes mineur
+<?php
+
+function myfunction($genre, $age)
+{
+if ($age >= 18) {
+if ($genre == "homme") {
+echo "vous etes un homme et vous etes major";
+} else {
+echo "vous etes une femme et vous etes majeur";
+}
+} else {
+if ($genre == "femme") {
+echo "vous etes une femme et vous etes mineur";
+} else {
+echo "vous etes un homme et vous etes mineur";
+}
+}
+}
+myfunction("femme", 16);
+?>

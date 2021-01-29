@@ -1,0 +1,9 @@
+-Faire une fonction qui prend en paramètre une chaine de caractères et qui retourne cette même chaine.
+<?php
+function myfunction($myString){
+return $myString ;
+}
+
+echo myfunction("Hello");
+
+?>

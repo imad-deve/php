@@ -1,0 +1,15 @@
+- Créer un tableau $mois et l'initialiser avec le nom des douze mois de l'année.
+ <!DOCTYPE html>
+ <html>
+ <head>
+             <title> PHP</title>
+             <meta charset="utf-8" />
+ </head>
+ <body>
+ <?php
+$mois=["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décember"];
+// print_r ($mois);
+echo $mois[0] ."<br>" .$mois[1] ."<br>" .$mois[2] ."<br>" .$mois[3] ."<br>" .$mois[4]  ."<br>".$mois[5] ."<br>" .$mois[6] ."<br>" .$mois[7] ."<br>" .$mois[8] ."<br>" .$mois[9] ."<br>" .$mois[10]  ."<br>".$mois[11];
+?> 
+</body>
+</html>

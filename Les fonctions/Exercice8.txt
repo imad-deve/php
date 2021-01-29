@@ -1,0 +1,9 @@
+-Faire une fonction qui prend en paramètre trois nombres et qui renvoit la somme de ces nombres. Tous les paramètres doivent avoir une valeur par défaut.
+
+
+<?php
+function myfun ($a,$b,$c){
+echo "la some et ", $a + $b + $c;
+}
+myfun (1,2,3);
+?>
